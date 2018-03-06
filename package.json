@@ -1,0 +1,33 @@
+{
+  "name": "@develodesign/vue-storefront-stripe",
+  "version": "1.0.0",
+  "description": "A Stripe extension built for vue-storefront, by Develo Design.",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/develodesign/vue-storefront-stripe.git"
+  },
+  "keywords": [
+    "vue-storefront-stripe",
+    "develodesign/vue-storefront-stripe",
+    "develodesign",
+    "vue-storefront",
+    "divanteltd/vue-storefront"
+  ],
+  "author": "Mike Sheward <mike@develodesign.co.uk> (https://www.develodesign.co.uk)",
+  "maintainers": [
+    "Luke Collymore <luke@develodesign.co.uk> (https://www.develodesign.co.uk)",
+    "Mike Sheward <mike@develodesign.co.uk> (https://www.develodesign.co.uk)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/develodesign/vue-storefront-stripe/issues"
+  },
+  "homepage": "https://github.com/develodesign/vue-storefront-stripe#readme"
+}
