@@ -6,7 +6,7 @@ Stripe extension for [vue-storefront](https://github.com/DivanteLtd/vue-storefro
 
 Add the extension to your Vue Storefront `package.json` using:
 ```shell
-$ npm install develodesign/vue-storefront-stripe --save
+$ npm install @develodesign/vue-storefront-stripe --save
 ```
 
 Add the following to your `config/local.json` and configure the `stripe.api_key` to point to your Stripe details.
