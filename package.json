@@ -1,6 +1,6 @@
 {
   "name": "@develodesign/vue-storefront-stripe",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Stripe extension built for vue-storefront, by Develo Design.",
   "main": "lib/index.js",
   "directories": {

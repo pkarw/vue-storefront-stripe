@@ -31,9 +31,3 @@ You can also customize the appearance of Stripe elements using the `style` key u
     }
 }
 ```
-
-## Structure
-We adhere to the CommonJS Package structure where applicable (http://wiki.commonjs.org/wiki/Packages/1.0).<br>
-You will find this extension has the following directories.
-- `lib` - the core code/Javascript for this Stripe extension is in the "lib" directory.
-- `doc` - accompanying documents for this Stripe extension is in the "doc" directory.
