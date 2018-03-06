@@ -22,11 +22,11 @@ You can also customize the appearance of Stripe elements using the `style` key u
     "api_key": "my_example_api_key",
     "style": {
         "base": {
-            "fontSize": '16px',
-            "color": "#32325d",
+            "fontSize": "16px",
+            "color": "#32325d"
           },
           "invalid": {
-              "color": '#fa755a'
+              "color": "#fa755a"
           }
     }
 }
