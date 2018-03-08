@@ -1,6 +1,6 @@
 # Stripe extension for Vue Storefront
 
-Stripe extension for [vue-storefront](https://github.com/DivanteLtd/vue-storefront), by [Develo Design](https://nodejs.org/).
+Stripe extension for [vue-storefront](https://github.com/DivanteLtd/vue-storefront), by [Develo Design](https://develodesign.co.uk).
 
 ## Installation using NPM:
 
