@@ -111,8 +111,12 @@ export default {
     },
     configureStripe () {
       // Create a new Stripe client.
-      // Todo: Pull these in from the config.
-      this.dd_stripe.instance = window.Stripe('pk_test_6pRNASCoBOKtIshFeQd4XMUh')
+
+      if (typeof this.$config.stripe.api_key === 'undefined') {
+        return false
+      }
+
+      this.dd_stripe.instance = window.Stripe(this.$config.stripe.api_key)
 
       // Create an instance of Elements.
       this.dd_stripe.elements = this.dd_stripe.instance.elements()
