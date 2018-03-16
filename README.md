@@ -9,13 +9,16 @@ Add the extension to your Vue Storefront `package.json` using:
 $ npm install vue-storefront-stripe --save
 ```
 
-Add `payment-develodesign-stripe` to the registeredExtensions section in your `config/local.json`
+Add `payment-develodesign-stripe` to the  `extensions/index.js`
 ```js
-"registeredExtensions": [
-    ...
-    ...
-    ...
-    "payment-develodesign-stripe"
+export default [
+  require('src/extensions/custom_extension/index.js').default,
+  require('src/extensions/payment-cash-on-delivery/index.js').default,
+  require('src/extensions/payment-backend-methods/index.js').default,
+  require('src/extensions/mailchimp-subscribe/index.js').default,
+  require('src/extensions/google-analytics/index.js').default,
+
+  require('vue-storefront-stripe/index.js').default
 ]
 ```
 
